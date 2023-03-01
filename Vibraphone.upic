@@ -1,0 +1,674 @@
+// object version:2.867 (20160808)
+: .util.Version {
+	build = "20160808"
+	resourcesPrefix = "org/highc"
+	version = 2.867
+}
+: .upic.model.Piece {
+	duration = 280.0
+	librarys {
+		{
+			defaultLibrary = true
+			name = base
+			path = "data/"
+			relative = false
+		}
+	}
+	prop {
+		visualization: .upic.app.view.PieceVisualization {
+			background {
+				drawScoreLines = true
+				drawTimeLines = true
+			}
+			listVisualization {
+			}
+		}
+		name: String = Vibraphone
+	}
+	sounds {
+		{
+			envelope = ":base:flat"
+			points {
+				{
+					f = 65.60161686262619
+					t = 0.2025192898028284
+				}
+				{
+					f = 65.60161686262619
+					t = 59.96916914776381
+				}
+			}
+			tags {
+				: String = AcousticGrandPiano
+				: String = "track_1"
+			}
+			waveform = composite
+		}
+		{
+			envelope = ":base:flat"
+			points {
+				{
+					f = 123.3657306871808
+					t = 60.15434227401474
+				}
+				{
+					f = 123.3657306871808
+					t = 109.8095736816754
+				}
+			}
+			tags {
+				: String = AcousticGrandPiano
+				: String = "track_1"
+			}
+			waveform = composite
+		}
+		{
+			envelope = ":base:flat"
+			points {
+				{
+					f = 174.66368592981502
+					t = 109.7922253557197
+				}
+				{
+					f = 174.66368592981502
+					t = 149.79564824263915
+				}
+			}
+			tags {
+				: String = AcousticGrandPiano
+				: String = "track_1"
+			}
+			waveform = composite
+		}
+		{
+			envelope = ":base:flat"
+			points {
+				{
+					f = 326.13755807184646
+					t = 150.23791131999891
+				}
+				{
+					f = 326.13755807184646
+					t = 180.12990814543934
+				}
+			}
+			tags {
+				: String = AcousticGrandPiano
+				: String = "track_1"
+			}
+			waveform = composite
+		}
+		{
+			envelope = ":base:flat"
+			points {
+				{
+					f = 219.18970191307343
+					t = 180.11256254732905
+				}
+				{
+					f = 219.18970191307343
+					t = 199.89314853364797
+				}
+			}
+			tags {
+				: String = AcousticGrandPiano
+				: String = "track_1"
+			}
+			waveform = composite
+		}
+		{
+			envelope = ":base:flat"
+			points {
+				{
+					f = 145.23653583343108
+					t = 199.8757929592049
+				}
+				{
+					f = 145.23653583343108
+					t = 210.46416781978124
+				}
+			}
+			tags {
+				: String = AcousticGrandPiano
+				: String = "track_1"
+			}
+			waveform = composite
+		}
+		{
+			envelope = ":base:flat"
+			points {
+				{
+					f = 97.61020222394691
+					t = 209.98721096329257
+				}
+				{
+					f = 97.61020222394691
+					t = 279.47530980465143
+				}
+			}
+			tags {
+				: String = AcousticGrandPiano
+				: String = "track_1"
+			}
+			waveform = composite
+		}
+	}
+	waveforms {
+		: .upic.model.CompositeWaveform {
+			color = "#ff0000"
+			defaultPitch = 77.78174593052023
+			name = composite
+			sounds {
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1046.5022612023945
+							t = 2.74999835
+						}
+						{
+							f = 1046.5022612023945
+							t = 2.9999982
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 311.1269837220809
+							t = 1.24999925
+						}
+						{
+							f = 311.1269837220809
+							t = 1.5009680916666666
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 233.08188075904496
+							t = 4.4999973
+						}
+						{
+							f = 233.08188075904496
+							t = 5.000965991666667
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 311.1269837220809
+							t = 5.750965541666667
+						}
+						{
+							f = 311.1269837220809
+							t = 5.9999964
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 174.61411571650194
+							t = 0.5009686916666667
+						}
+						{
+							f = 174.61411571650194
+							t = 1.0009683916666667
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 698.4564628660078
+							t = 2.24999865
+						}
+						{
+							f = 698.4564628660078
+							t = 2.4999985
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 77.78174593052023
+							t = 3.9999976
+						}
+						{
+							f = 77.78174593052023
+							t = 5.000965991666667
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1244.5079348883237
+							t = 7.500964491666666
+						}
+						{
+							f = 1244.5079348883237
+							t = 7.74999535
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1244.5079348883237
+							t = 2.9999982
+						}
+						{
+							f = 1244.5079348883237
+							t = 3.2509670416666663
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1479.9776908465376
+							t = 3.2509670416666663
+						}
+						{
+							f = 1479.9776908465376
+							t = 3.4999978999999994
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 261.6255653005986
+							t = 5.4999967000000005
+						}
+						{
+							f = 261.6255653005986
+							t = 5.9999964
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 261.6255653005986
+							t = 1.0009683916666667
+						}
+						{
+							f = 261.6255653005986
+							t = 1.5009680916666666
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 466.1637615180899
+							t = 6.24999625
+						}
+						{
+							f = 466.1637615180899
+							t = 6.4999961
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 116.54094037952248
+							t = 9.689916666666964E-4
+						}
+						{
+							f = 116.54094037952248
+							t = 0.9999994
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 698.4564628660078
+							t = 6.750964941666667
+						}
+						{
+							f = 698.4564628660078
+							t = 6.9999958
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 174.61411571650194
+							t = 5.000965991666667
+						}
+						{
+							f = 174.61411571650194
+							t = 5.4999967000000005
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 2217.4610478149766
+							t = 8.249995049999999
+						}
+						{
+							f = 2217.4610478149766
+							t = 8.499994899999999
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1046.5022612023945
+							t = 7.24999565
+						}
+						{
+							f = 1046.5022612023945
+							t = 7.500964491666666
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 369.9944227116344
+							t = 5.9999964
+						}
+						{
+							f = 369.9944227116344
+							t = 6.24999625
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 233.08188075904496
+						}
+						{
+							f = 233.08188075904496
+							t = 0.4999997000000001
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1864.65504607236
+							t = 8.000964191666666
+						}
+						{
+							f = 1864.65504607236
+							t = 8.249026058333332
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 2793.825851464031
+							t = 3.9999976
+						}
+						{
+							f = 2793.825851464031
+							t = 4.250966441666667
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 523.2511306011972
+							t = 1.0009683916666667
+						}
+						{
+							f = 523.2511306011972
+							t = 1.24999925
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 830.6093951598903
+							t = 6.9999958
+						}
+						{
+							f = 830.6093951598903
+							t = 7.24999565
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 369.9944227116344
+							t = 1.5009680916666666
+						}
+						{
+							f = 369.9944227116344
+							t = 1.7499989499999995
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 554.3652619537442
+							t = 1.9999988
+						}
+						{
+							f = 554.3652619537442
+							t = 2.24999865
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 554.3652619537442
+							t = 6.4999961
+						}
+						{
+							f = 554.3652619537442
+							t = 6.750964941666667
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1864.65504607236
+							t = 3.4999978999999994
+						}
+						{
+							f = 1864.65504607236
+							t = 3.74999775
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 523.2511306011972
+							t = 5.4999967000000005
+						}
+						{
+							f = 523.2511306011972
+							t = 5.750965541666667
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 2217.4610478149766
+							t = 3.74999775
+						}
+						{
+							f = 2217.4610478149766
+							t = 3.9999976
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 1479.9776908465376
+							t = 7.74999535
+						}
+						{
+							f = 1479.9776908465376
+							t = 8.000964191666666
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 466.1637615180899
+							t = 1.7499989499999995
+						}
+						{
+							f = 466.1637615180899
+							t = 1.9999988
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 830.6093951598903
+							t = 2.4999985
+						}
+						{
+							f = 830.6093951598903
+							t = 2.74999835
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+				{
+					envelope = ":base:attack"
+					level = 0.109375
+					points {
+						{
+							f = 2793.825851464031
+							t = 8.499994899999999
+						}
+						{
+							f = 2793.825851464031
+							t = 8.749994749999999
+						}
+					}
+					waveform = "base:sampled:winds:EbClarinet-mf"
+				}
+			}
+		}
+	}
+}
